@@ -3,7 +3,7 @@ package process
 import (
 	context "context"
 
-	"github.com/open-feature/flagd/core/pkg/sync"
+	"github.com/voiapp/flagd/core/pkg/sync"
 )
 
 // DoNothingCustomSyncProvider is fake implementation of sync.ISync. Does not conform to the contract because it does not send any events to the DataSync.

@@ -5,7 +5,7 @@ package e2e
 import (
 	"testing"
 
-	flagd "github.com/open-feature/go-sdk-contrib/providers/flagd/pkg"
+	flagd "github.com/voiapp/go-sdk-contrib/providers/flagd/pkg"
 
 	"github.com/open-feature/go-sdk-contrib/tests/flagd/testframework"
 )

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-feature/flagd/core/pkg/logger"
+	"github.com/voiapp/flagd/core/pkg/logger"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"
 )

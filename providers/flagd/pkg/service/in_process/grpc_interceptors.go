@@ -3,7 +3,7 @@ package process
 import (
 	"context"
 
-	"github.com/open-feature/go-sdk-contrib/providers/flagd/internal/flagdmeta"
+	"github.com/voiapp/go-sdk-contrib/providers/flagd/internal/flagdmeta"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

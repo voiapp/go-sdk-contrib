@@ -7,10 +7,10 @@ import (
 
 	parallel "sync"
 
-	"github.com/open-feature/go-sdk-contrib/providers/flagd/internal/cache"
-	process "github.com/open-feature/go-sdk-contrib/providers/flagd/pkg/service/in_process"
-	rpcService "github.com/open-feature/go-sdk-contrib/providers/flagd/pkg/service/rpc"
 	of "github.com/open-feature/go-sdk/openfeature"
+	"github.com/voiapp/go-sdk-contrib/providers/flagd/internal/cache"
+	process "github.com/voiapp/go-sdk-contrib/providers/flagd/pkg/service/in_process"
+	rpcService "github.com/voiapp/go-sdk-contrib/providers/flagd/pkg/service/rpc"
 )
 
 const (

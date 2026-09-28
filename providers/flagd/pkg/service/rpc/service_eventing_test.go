@@ -7,8 +7,8 @@ import (
 	"time"
 
 	schemaV2 "buf.build/gen/go/open-feature/flagd/protocolbuffers/go/flagd/evaluation/v2"
-	"github.com/open-feature/go-sdk-contrib/providers/flagd/internal/cache"
 	of "github.com/open-feature/go-sdk/openfeature"
+	"github.com/voiapp/go-sdk-contrib/providers/flagd/internal/cache"
 	"google.golang.org/protobuf/types/known/structpb"
 )
 

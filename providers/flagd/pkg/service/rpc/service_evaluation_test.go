@@ -11,9 +11,9 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	flagdModels "github.com/open-feature/flagd/core/pkg/model"
-	"github.com/open-feature/go-sdk-contrib/providers/flagd/internal/cache"
 	of "github.com/open-feature/go-sdk/openfeature"
+	flagdModels "github.com/voiapp/flagd/core/pkg/model"
+	"github.com/voiapp/go-sdk-contrib/providers/flagd/internal/cache"
 	"google.golang.org/protobuf/types/known/structpb"
 )
 
@@ -49,8 +49,8 @@ func init() {
 	}
 }
 
-func ptrBool(v bool) *bool       { return &v }
-func ptrString(v string) *string { return &v }
+func ptrBool(v bool) *bool        { return &v }
+func ptrString(v string) *string  { return &v }
 func ptrFloat(v float64) *float64 { return &v }
 func ptrInt(v int64) *int64       { return &v }
 

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"connectrpc.com/connect"
-	"github.com/open-feature/go-sdk-contrib/providers/flagd/internal/flagdmeta"
+	"github.com/voiapp/go-sdk-contrib/providers/flagd/internal/flagdmeta"
 )
 
 // selectorInterceptor is a connect.Interceptor that adds the flagd-selector header.

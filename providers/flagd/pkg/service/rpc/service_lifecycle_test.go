@@ -17,9 +17,9 @@ import (
 	evaluation "buf.build/gen/go/open-feature/flagd/protocolbuffers/go/flagd/evaluation/v2"
 	"connectrpc.com/connect"
 	"github.com/go-logr/logr"
-	flagdService "github.com/open-feature/flagd/core/pkg/service"
-	"github.com/open-feature/go-sdk-contrib/providers/flagd/internal/cache"
 	of "github.com/open-feature/go-sdk/openfeature"
+	flagdService "github.com/voiapp/flagd/core/pkg/service"
+	"github.com/voiapp/go-sdk-contrib/providers/flagd/internal/cache"
 	"google.golang.org/protobuf/types/known/structpb"
 )
 

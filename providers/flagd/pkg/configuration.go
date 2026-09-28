@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	"github.com/open-feature/flagd/core/pkg/sync"
-	"github.com/open-feature/go-sdk-contrib/providers/flagd/internal/cache"
-	"github.com/open-feature/go-sdk-contrib/providers/flagd/internal/logger"
-	process "github.com/open-feature/go-sdk-contrib/providers/flagd/pkg/service/in_process"
+	"github.com/voiapp/flagd/core/pkg/sync"
+	"github.com/voiapp/go-sdk-contrib/providers/flagd/internal/cache"
+	"github.com/voiapp/go-sdk-contrib/providers/flagd/internal/logger"
+	process "github.com/voiapp/go-sdk-contrib/providers/flagd/pkg/service/in_process"
 	"google.golang.org/grpc"
 )
 
@@ -31,8 +31,8 @@ const (
 	defaultCache                        = cache.LRUValue
 	defaultHost                         = "localhost"
 	defaultResolver                     = rpc
-    // defaultGracePeriod is the default time window (in seconds) for the transition from stale to error state
-    defaultGracePeriod      = 5
+	// defaultGracePeriod is the default time window (in seconds) for the transition from stale to error state
+	defaultGracePeriod      = 5
 	defaultFatalStatusCodes = ""
 	defaultInitDeadlineMs   = 500
 

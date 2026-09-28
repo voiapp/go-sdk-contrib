@@ -11,15 +11,15 @@ import (
 	"go.uber.org/zap"
 	googlegrpc "google.golang.org/grpc"
 
-	"github.com/open-feature/flagd/core/pkg/evaluator"
-	"github.com/open-feature/flagd/core/pkg/logger"
-	"github.com/open-feature/flagd/core/pkg/model"
-	"github.com/open-feature/flagd/core/pkg/store"
-	isync "github.com/open-feature/flagd/core/pkg/sync"
-	"github.com/open-feature/flagd/core/pkg/sync/file"
-	"github.com/open-feature/flagd/core/pkg/sync/grpc"
-	"github.com/open-feature/flagd/core/pkg/sync/grpc/credentials"
 	of "github.com/open-feature/go-sdk/openfeature"
+	"github.com/voiapp/flagd/core/pkg/evaluator"
+	"github.com/voiapp/flagd/core/pkg/logger"
+	"github.com/voiapp/flagd/core/pkg/model"
+	"github.com/voiapp/flagd/core/pkg/store"
+	isync "github.com/voiapp/flagd/core/pkg/sync"
+	"github.com/voiapp/flagd/core/pkg/sync/file"
+	"github.com/voiapp/flagd/core/pkg/sync/grpc"
+	"github.com/voiapp/flagd/core/pkg/sync/grpc/credentials"
 )
 
 const (

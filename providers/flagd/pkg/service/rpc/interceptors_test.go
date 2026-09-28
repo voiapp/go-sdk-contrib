@@ -9,7 +9,7 @@ import (
 	schemaConnectV2 "buf.build/gen/go/open-feature/flagd/connectrpc/go/flagd/evaluation/v2/evaluationv2connect"
 	schemaV2 "buf.build/gen/go/open-feature/flagd/protocolbuffers/go/flagd/evaluation/v2"
 	"connectrpc.com/connect"
-	"github.com/open-feature/go-sdk-contrib/providers/flagd/internal/flagdmeta"
+	"github.com/voiapp/go-sdk-contrib/providers/flagd/internal/flagdmeta"
 )
 
 // TestSelectorInterceptor_Unary verifies the flagd-selector header is added
