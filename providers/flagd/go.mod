@@ -12,7 +12,7 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/open-feature/go-sdk v1.17.0
-	github.com/voiapp/flagd/core v0.1.3
+	github.com/voiapp/flagd/core v0.1.4-0.20260928195931-3e292a1cba2c
 	go.uber.org/mock v0.6.0
 	go.uber.org/zap v1.27.1
 	golang.org/x/net v0.55.0
@@ -45,5 +45,3 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260401024825-9d38bb4040a9 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/voiapp/flagd/core => ../../../flagd/core
